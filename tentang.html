@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tentang - Toko Saya</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root{--accent:#ff7a18;--muted:#6b7280}
+    body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial;padding-top:56px}
+    main{padding:30px 20px;max-width:1200px;margin:0 auto;min-height:calc(100vh - 200px)}
+    main h2{font-size:2rem;font-weight:700;margin-bottom:24px;color:#1f2937}
+    main p{font-size:1rem;line-height:1.6;color:var(--muted);margin-bottom:16px}
+    .page-loader{position:fixed;inset:0;background:rgba(255,255,255,0.92);display:flex;align-items:center;justify-content:center;z-index:9999}
+  </style>
+</head>
+<body>
+  <div id="page-loader" class="page-loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Memuat…</span>
+    </div>
+  </div>
+  
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-shop me-2"></i>Toko Saya
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavTg" aria-controls="navbarNavTg" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavTg">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="alamat.html">Alamat</a></li>
+            <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+            <li class="nav-item"><a class="nav-link active" href="tentang.html">Tentang</a></li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item position-relative"><a class="nav-link" href="#"><i class="bi bi-cart3 me-1"></i>Keranjang <span class="cart-badge" id="cart-count">0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2><i class="bi bi-info-circle me-2"></i>Tentang Kami</h2>
+    <p><br>Berikut adalah beberapa opsi deskripsi diri untuk "Yohan Penjualan Product" yang bisa Anda gunakan, dari yang singkat hingga yang sangat detail. Anda dapat menyesuaikannya dengan pengalaman dan produk spesifik yang Anda jual.
+       <br>
+      <br>Opsi 1: Singkat & Berorientasi Hasil (Cocok untuk ringkasan profil media sosial/CV)
+      "Yohan - Profesional penjualan produk yang berorientasi pada hasil dengan pengalaman solid dalam mendorong pertumbuhan pendapatan dan membangun hubungan pelanggan yang langgeng. Ahli dalam mengidentifikasi peluang pasar baru dan menerapkan strategi penjualan yang efektif untuk mencapai target yang ambisius."
+      <br>
+
+       <br>Opsi 2: Lebih Lengkap & Profesional (Cocok untuk bagian 'Tentang Saya' di LinkedIn/Website)
+       "Saya Yohan, seorang profesional penjualan yang dinamis dan berdedikasi dengan rekam jejak yang terbukti dalam siklus penjualan produk secara menyeluruh, dari prospeksi hingga penutupan kesepakatan. Dengan fokus kuat pada kepuasan pelanggan,
+        saya unggul dalam komunikasi, negosiasi, dan pemecahan masalah yang kompleks. Saya adaptif terhadap dinamika pasar yang terus berubah dan secara konsisten berhasil melampaui kuota penjualan dengan membangun hubungan yang kuat dengan klien, menghasilkan bisnis yang berulang dan peningkatan pendapatan."
+        <br>
+
+        <br>Opsi 3: Sangat Detail & Spesifik (Cocok untuk Surat Lamaran Kerja atau Pengenalan Diri Lengkap)
+        "Perkenalkan, saya Yohan, seorang Manajer Penjualan Produk yang berpengalaman luas dalam industri [Sebutkan Industri Anda, misal: FMCG/Teknologi/Ritel]. Selama [Sebutkan Jumlah Tahun] tahun, saya telah mengasah keahlian dalam:
+          Strategi Penjualan: Merancang dan mengimplementasikan strategi penjualan inovatif yang menghasilkan peningkatan pangsa pasar sebesar [Sebutkan Angka, misal: 20%].
+            Pengembangan Bisnis: Mengidentifikasi dan menjalin kemitraan strategis dengan klien-klien utama (key accounts), yang secara signifikan memperluas basis pelanggan kami.
+              Manajemen Hubungan Klien: Mempertahankan tingkat retensi klien yang tinggi melalui pendekatan konsultatif dan fokus pada pemahaman mendalam akan kebutuhan bisnis mereka.
+                Analisis Pasar: Menggunakan wawasan data untuk menyesuaikan penawaran produk dan tetap unggul dalam persaingan.
+                   Saya termotivasi oleh tantangan untuk mencapai target penjualan dan memberikan solusi bernilai tambah yang mendorong pertumbuhan yang berkelanjutan bagi perusahaan dan klien saya".</p>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="page-loader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="page-loader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
